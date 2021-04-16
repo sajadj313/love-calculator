@@ -27,8 +27,8 @@ class ViewController: UIViewController {
         
         let name = "\(textView1.text!) \(textView2.text!)"
         
-        let cunz = count(name:name)
-        resultView1.text = "\(cunz)%"
+        let finalCount = count(name:name)
+        resultView1.text = "\(finalCount)%"
         resultView1.alpha = 1.0
         
     }
